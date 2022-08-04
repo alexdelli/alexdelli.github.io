@@ -1,7 +1,7 @@
-baseURL: "https://reorx.github.io/hugo-PaperModX/"
-title: PaperModX
+baseURL: "https://alexdelli.github.io/"
+title: Podcasdelli
 paginate: 5
-theme: PaperModX
+theme: Podcasdelli
 # NOTE remove this line if you copy exampleSite outof hugo-PaperModX
 themesdir: ../..
 
@@ -25,8 +25,8 @@ params:
   DateFormat: "2006-01-02"
   useCustomAnalytics: true
 
-  defaultTheme: auto
-  # disableThemeToggle: true
+  defaultTheme: dark
+  disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
   ShowWordCount: true
