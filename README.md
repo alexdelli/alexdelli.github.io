@@ -1,193 +1,55 @@
-# uBlogger Theme | Hugo
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/blob/master/LICENSE)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/00c527bb-f8bc-4094-8da3-b37f28e4d81a/deploy-status)](https://app.netlify.com/sites/ublogger/deploys)
-> **uBlogger** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
+DSPods
+===
 
 
-It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt).
+DSPods is an Open Source collection of podcasts about Data Science. The [website](https://dspods.netlify.app/) just adds a few bells and whistles around this podcasts list to make it easy for perusal. What are those bells and whistles?
 
-Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose uBlogger](#why-choose-ublogger) so that you can choose the one that works best for you.
+1. Find all Data Science podcasts here. No need to trawl search engine results and blog posts.
+2. The list is community created and curated, thus has a good signal-to-noise ratio.
+3. Easily find the active podcasts; avoid the heartbreak when you realise that the podcast you liked so much is no longer releasing any new episodes.
+4. Since the details of the podcasts are updated daily, it's never static.
 
-![Hugo Theme uBlogger](https://github.com/upagge/uBlogger/raw/master/images/Apple-Devices-Preview.jpg)
 
-## :warning: Information for those who move with LoveIt theme :warning:
+When I first started listening to podcasts and wanted to find a few on Data Science I looked up on Google. Google gave me many blog posts recommending the podcasts. I subscribed to a few, removed a few which I didn't like, and added some more later from other blogs. This whole process took time and various iterations to come to a set of podcasts I listen to now. The static information of the podcast meant that I also had to check the podcasts which were no longer active.
 
-> Skip to the next section if you do not know about LoveIt
+The considered definition of Data Science is pretty loose: it can be about technology, programming languages, data engineering, AI, ML, DL, ethics and philosophy in AI, visualization, research around the AI and Data Science fields. The idea behind keeping the definition of Data Science broad is because a person might only be interested in a subset of the topics. **My hope is to create a single place to discover all such podcasts instead of searching and going through various blog posts.**
 
-**If you have used the LoveIt theme, I have a [message for you, make sure to read it.](CHANGE.md)**
 
-## [Demo Site and Documentation](https://ublogger.netlify.app/)
+## Podcasts
 
-To see this theme in action, here is a live [demo site](https://ublogger.netlify.app/) which is rendered with **uBlogger** theme.
+List of podcasts are in [podcasts.md](podcasts.md).
 
-## Why choose uBlogger
 
-Compared to the original LeaveIt theme and the KeepIt theme, the uBlogger theme has the following modifications.
+## Technical Details
 
-* Custom **Header**
-* Custom **CSS Style**
-* A new **home page**, compatible with the latest version of Hugo
-* A lot of **style detail adjustments,** including color, font size, margins, code preview style
-* More readable **dark mode**
-* Some beautiful **CSS animations**
-* Easy-to-use and self-expanding **table of contents**
-* More **social links**, **share sites** and **comment system**
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Copy code** to clipboard with one click
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagram syntax** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* Embedded **music player** supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili** player supported
-* Kinds of **admonitions** shortcode supported
-* Custom style shortcodes supported
-* **CDN** for all third-party libraries supported
-* ...
+- The website is built using [Jekyll](https://jekyllrb.com) static website generator.
+- The website is designed with [Bootstrap](https://getbootstrap.com/). The [Mediumish Jekyll Theme](https://www.wowthemes.net/mediumish-free-jekyll-template/) was modified significantly for the current design, but it was the starting point.
+- GitHub actions
+- Hosted using [Netlify](https://www.netlify.com/).
 
-In short,
-if you prefer the design language and freedom of the uBlogger theme,
-if you want to use the extended Font Awesome icons conveniently,
-if you want to embed mathematical formulas, flowcharts, music or Bilibili videos in your posts,
-the uBlogger theme may be more suitable for you.
 
-I hope you will uBlogger ❤️!
+## Contribute
 
-## Features
+You can contribute in multiple ways:
 
-### Performance and SEO
+- If you're a host of a Data Science podcast, please consider adding your podcast here.
+- If you listen to a podcast not mentioned here, please consider adding that podcast here. It'll help others discover that podcast and give the podcast creators much needed promotion.
+- If you (host, or a listener) think that some information about a podcast is wrong, then you can help too.
+- If you have any suggestion then I'd like to hear about it as well.
 
-* Optimized for **performance**: 99/100 on mobile and 100/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-* Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
-* **[Google Analytics](https://analytics.google.com/analytics)** supported
-* **[Fathom Analytics](https://usefathom.com/)** supported
-* **[Yandex.Metrica](https://metrica.yandex.com)** supported
-* Search engine **verification** supported (Google, Bind, Yandex and Baidu)
-* **CDN** for third-party libraries supported
-* Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
+You can provide help in two ways:
 
-### Appearance and Layout
+1. Raise an issue [here](https://github.com/TrigonaMinima/dspods/issues/new). Select the "New Podcast" issue template and just fill the details asked there
+2. Make the change or add a new file and submit a pull request. Each podcast is represented as a markdown file inside [`_posts`](_posts) directory with a yaml front matter. Jekyll uses this file to build the final website. Here is a checklist to be followed:
 
-* **Responsive** layout
-* **Light/Dark** mode
-* Globally consistent **design language**
-* **Pagination** supported
-* Easy-to-use and self-expanding **table of contents**
-* **Multilanguage** supported and i18n ready
-* Beautiful **CSS animation**
-
-### Social and Comment Systems
-
-* **Gravatar** supported by [Gravatar](https://gravatar.com)
-* Local **Avatar** supported
-* Up to **64** social links supported
-* Up to **28** share sites supported
-* **Remark42** comment system sypported by [Remark42](https://github.com/umputun/remark42/). I recommend using it.
-* **Disqus** comment system supported by [Disqus](https://disqus.com)
-* **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
-* **Valine** comment system supported by [Valine](https://valine.js.org/)
-* **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-* **Telegram comments** system supported by [Telegram Comments](https://comments.app/)
-* **Commento** comment system supported by [Commento](https://commento.io/)
-* **Utterances** comment system supported by [Utterances](https://utteranc.es/)
-
-### Extended Features
-
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Twemoji** supported
-* Automatically **highlighting** code
-* **Copy code** to clipboard with one click
-* Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-* Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
-* **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagrams** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
-* **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-* **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-* **Bilibili player** shortcode
-* Kinds of **admonitions** shortcode
-* **Custom style** shortcode
-* **Custom script** shortcode
-* **Dynamic scroll** supported by [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
-* ...
-
-## Documentation
-
-Build Documentation Locally:
-
-```bash
-hugo server --source=exampleSite
-```
-
-## Multilingual and i18n
-
-uBlogger supports the following languages:
-
-* English
-* Simplified Chinese
-* French
-* Polish
-* Brazilian Portuguese
-* Italian
-* Spanish
-* German
-* Serbian
-* Russian
-* Romanian
-* Vietnamese
-* [Contribute with a new language](https://github.com/upagge/uBlogger/pulls)
-
-## Questions, ideas, bugs, pull requests
-
-All feedback is welcome! Head over to the [issue tracker](https://github.com/upagge/uBlogger/issues).
-
-## License
-
-uBlogger is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/upagge/uBlogger/blob/master/LICENSE) for details.
-
-Thanks to the authors of following resources included in the theme:
-
-* [normalize.css](https://github.com/necolas/normalize.css)
-* [Font Awesome](https://fontawesome.com/)
-* [Simple Icons](https://github.com/simple-icons/simple-icons)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [autocomplete.js](https://github.com/algolia/autocomplete.js)
-* [Lunr.js](https://lunrjs.com/)
-* [algoliasearch](https://github.com/algolia/algoliasearch-client-javascript)
-* [lazysizes](https://github.com/aFarkas/lazysizes)
-* [object-fit-images](https://github.com/fregante/object-fit-images)
-* [Twemoji](https://github.com/twitter/twemoji)
-* [clipboard.js](https://github.com/zenorocha/clipboard.js)
-* [Sharer.js](https://github.com/ellisonleao/sharer.js)
-* [KaTeX](https://katex.org/)
-* [mermaid](https://github.com/knsv/mermaid)
-* [ECharts](https://echarts.apache.org/)
-* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-* [APlayer](https://github.com/MoePlayer/APlayer)
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Gitalk](https://github.com/gitalk/gitalk)
-* [Valine](https://valine.js.org/)
-* [cookieconsent](https://github.com/osano/cookieconsent)
-* [Remark42](https://github.com/umputun/remark42/)
-
-## Author
-
-[uPagge](https://uPagge.ru)
-
-## Sponsor
-
-If you enjoy the theme, please set the star for the project or/and consider buying me a coffee ☕️.
-
-* [PaiPal](https://paypal.me/upagge)
-
-Thanks! ❤️❤️❤️
+    - Git pull (and rebase) to pull in the new changes before you push your commits and a PR.
+    - Add title.
+    - Add categories you think best describe the podcast.
+    - Add description.
+    - Add podcast image with at least 600x600 pixels (preferably `webp` format). Reduce the size of the image using the [tinypng.com](https://tinypng.com/). All the podcast images are present in the [`/assets/images/pods`](/assets/images/pods)
+    - Add podcast website URL.
+    - Add RSS feed link.
+    - Add one or more of Pocketcasts, Spotify, Apple Podcasts (don't use iTunes URL), YouTube.
+    - Add the podcast entry in the [./podcasts.md](https://github.com/TrigonaMinima/dspods/blob/gh-pages/podcasts.md).
+    - Commit message is as follows: `Add: New podcast - <podcast_name>`.
+    - Keep everything related to a podcast within a single commit.
